@@ -186,4 +186,3 @@ réponse d'écho
 
 echo $ response
 
-?>
