@@ -18,7 +18,6 @@ $ response. = "1. Entrez 1 pour continuer";
 
 }
 
-
 // Menu pour un utilisateur qui sélectionne '1' dans le premier menu
 
 // Sera amené à ce deuxième écran de menu
@@ -36,7 +35,6 @@ $ response. = "3. Table pour 6 \ n";
 $ response. = "4. Table pour 8 \ n";
 
 }
-
 
 // Menu pour un utilisateur qui sélectionne '1' dans le deuxième menu ci-dessus
 
@@ -60,7 +58,6 @@ $ response. = "Entrez 0 pour annuler";
 
 }
 
-
 else if ($ text == "1 * 1 * 1 * 1") {
 
 $ response = "END Votre réservation de table pour 2 a été réservée";
@@ -83,8 +80,7 @@ $ response. = "Veuillez entrer 1 pour confirmer \ n";
 
 }
 
-
-/// Menu pour un utilisateur qui sélectionne "1" dans le quatrième écran de menu
+// Menu pour un utilisateur qui sélectionne "1" dans le quatrième écran de menu
 
 sinon si ($ text == "1 * 2 * 1") {
 
@@ -186,3 +182,4 @@ réponse d'écho
 
 echo $ response
 
+?>
