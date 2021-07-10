@@ -9,6 +9,7 @@ $ serviceCode = $ _POST ["serviceCode"];
 $ text = $ _POST ["text"];
 
 // Ceci est le premier écran de menu
+
  if ($ text == "") {
 
 $ response = "CON Bonjour, je peux vous aider avec la réservation d'événement \ n";
@@ -21,7 +22,7 @@ $ response. = "1. Entrez 1 pour continuer";
 
 // Sera amené à ce deuxième écran de menu
 
-else if ($ text == "1") {
+sinon si ($ text == "1") {
 
 $ response = "CON Choisissez une table pour la réservation ci-dessous \ n ";
 
@@ -67,7 +68,9 @@ else if ($ text == "1 * 1 * 1 * 0") {
 
 $ response = "
 
+// Menu pour un utilisateur qui sélectionne "2" dans le deuxième menu ci-dessus
 
+// Sera amené à ce quatrième écran de menu
 
 else if ($ text == "1 * 2") {
 
@@ -169,11 +172,7 @@ $ response = "END Votre réservation de table pour 8 a été annulée";
 
 }
 
-// en-
-
-tête de
-
-réponse d'écho
+// en-tête de réponse d'écho
 
 ('Content-type: text / plain');
 
