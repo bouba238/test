@@ -9,8 +9,7 @@ $ serviceCode = $ _POST ["serviceCode"];
 $ text = $ _POST ["text"];
 
 // Ceci est le premier écran de menu
-
-si ($ text == "") {
+ if ($ text == "") {
 
 $ response = "CON Bonjour, je peux vous aider avec la réservation d'événement \ n";
 
@@ -22,7 +21,7 @@ $ response. = "1. Entrez 1 pour continuer";
 
 // Sera amené à ce deuxième écran de menu
 
-sinon si ($ text == "1") {
+else if ($ text == "1") {
 
 $ response = "CON Choisissez une table pour la réservation ci-dessous \ n ";
 
@@ -40,7 +39,7 @@ $ response. = "4. Table pour 8 \ n";
 
 // Sera amené à ce troisième écran de menu
 
-sinon si ($ text == "1 * 1") {
+else if ($ text == "1 * 1") {
 
 $ response = "CON Vous êtes sur le point de réserver une table pour 2 \ n ";
 
@@ -68,11 +67,9 @@ else if ($ text == "1 * 1 * 1 * 0") {
 
 $ response = "
 
-// Menu pour un utilisateur qui sélectionne "2" dans le deuxième menu ci-dessus
 
-// Sera amené à ce quatrième écran de menu
 
-sinon si ($ text == "1 * 2") {
+else if ($ text == "1 * 2") {
 
 $ response = "CON Vous êtes sur le point de réserver une table pour 4 \ n ";
 
@@ -82,7 +79,7 @@ $ response. = "Veuillez entrer 1 pour confirmer \ n";
 
 // Menu pour un utilisateur qui sélectionne "1" dans le quatrième écran de menu
 
-sinon si ($ text == "1 * 2 * 1") {
+else if ($ text == "1 * 2 * 1") {
 
 $ response = "CON Table for 4 cost -N- 150,000.00 \ n";
 
@@ -106,7 +103,7 @@ else if ($ text == "
 
 // Sera amené à ce cinquième écran de menu
 
-sinon si ($ text == "1 * 3") {
+else if ($ text == "1 * 3") {
 
 $ response = "CON Vous êtes sur le point de réserver une table pour 6 \ n ";
 
@@ -116,7 +113,7 @@ $ response. = "Veuillez entrer 1 pour confirmer \ n";
 
 // Menu pour un utilisateur qui entre "1" dans le cinquième menu
 
-sinon si ($ text == "1 * 3 * 1") {
+else if ($ text == "1 * 3 * 1") {
 
 $ response = "CON Table for 6 cost -N- 250,000.00 \ n";
 
@@ -142,7 +139,7 @@ $ response = "END Votre réservation de table pour 6 a été annulée";
 
 // Sera amené à ce sixième écran de menu
 
-sinon si ($ text == "1 * 4") {
+else if ($ text == "1 * 4") {
 
 $ response = "CON Vous êtes sur le point de réserver une table pour 8 \ n ";
 
@@ -152,7 +149,7 @@ $ response. = "Veuillez entrer 1 pour confirmer \ n";
 
 // Menu pour un utilisateur qui entre "1" dans le sixième menu
 
-sinon si ($ text == "1 * 4 * 1") {
+else if ($ text == "1 * 4 * 1") {
 
 $ response = "CON Table for 8 cost -N- 250,000.00 \ n";
 
